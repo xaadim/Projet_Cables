@@ -2,9 +2,9 @@ PostgreSQL sauvegarde et de restauration
 ===
 Il ya un certain nombre d'options pour la sauvegarde d'une base de données PostgreSQL. Choisir l'option la plus appropriée dépend de la façon dont vous utilisez la base de données. 
 
-La sauvegarde en ligne est la base pour la réplication et des systèmes stand-by pour la haute disponibilité, en particulier la version de PostgreSQL 9.0 ou supérieure.
 
 Structurer vos données
+----
 Il est de bonne pratique pour stocker toujours vos données de production dans les schémas de PostgreSQL séparés et nous recommandons que vous adoptez cette approche pour gérer vos données dans une base de données PostgreSQL. Ceci est important pour deux raisons:
 
 Sauvegarde et restauration des données structurées dans des schémas distincts est plus simple que la compilation des listes de tables à sauvegarder individuellement.
