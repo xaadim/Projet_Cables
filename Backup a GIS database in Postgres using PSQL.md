@@ -57,7 +57,7 @@ On peut aussi faire:
 ```
 psql -h [SERVEUR] -d [BDD] -U [USERBDD] -f /[CHEMIN_FICHIER_SQL]/[NOM].sql
 ```
-### 4- Les grosses bases de données
+#### 4- Les grosses bases de données
 
 Il est conseiller de faire une compression pour la sauvegarde des grosses bases de données. 
 
