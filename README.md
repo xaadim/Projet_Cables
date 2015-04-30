@@ -58,38 +58,5 @@ la nouvelle application.
 
 l'application si finalisée...).
 
-− Autres suivant l'avancée du projet.
+− Autres
 
-Dates et durée du stage
-
-6 mois entre février 2015 et septembre 2015.
-
-Niveau d'études
-
-Élève ingénieur ou étudiant en Master 2.
-
-Indemnisations
-
-Le Parc national de la Vanoise accorde, selon le décret n° 2009-885 du 21/07/2009, une
-
-gratification de 436,05 euros mensuel au 1er janvier 2012 (pour les stages d'une durée supérieure
-
-à deux mois consécutifs). Les déplacements autorisés par le directeur du Parc sont indemnisés
-
-suite à la production d'un état de frais de déplacement visé par le responsable du stage. Le ou la
-
-stagiaire devra être titulaire du permis B et posséder un véhicule.
-
-Candidature à envoyer à :
-
-Parc national de la Vanoise
-
-135 rue du docteur Julliand
-
-BP 705
-
-73007 Chambéry
-
-Renseignements complémentaires :
-
-Christophe Chillet : christophe.chillet @parcnational-vanoise.fr - Tél. 04.79.62.90.16
