@@ -36,11 +36,12 @@ Ici, le serveur par défaut est localhost. Pour préciser quel serveur de bases 
 Exemple: 
 ```sql
 pg_dump -h 000.00.000.000 - p 0000  -d mabase > /home/votre_projet/mabase.sql
+pg_dump -h [SERVEUR]  -d [BDD] -U [USERBDD] --column-inserts -t [SCHEMA].[TABLE] > /[CHEMIN_FICHIER_SQL]/[NOM].sql
 ```
 
 
 
-sudo pg_dump -h [SERVEUR]  -d [BDD] -U [USERBDD] --column-inserts -t [SCHEMA].[TABLE] > /[CHEMIN_FICHIER_SQL]/[NOM].sql
+
 sudo shp2pgsql -s [PROJECTION] /[CHEMIN_FICHIER_SQL]/[NOM_SHAPE] [SCHEMA].[TABLE] > /[CHEMIN_FICHIER_SQL]/[NOM].sql
 sudo psql -h [SERVEUR] -d [BDD] -U [USERBDD] -f /[CHEMIN_FICHIER_SQL]/[NOM].sql
 
