@@ -18,7 +18,7 @@ actuellement en place. Elle a été réalisée depuis une solution de développe
 
 (Système de base de données associé : PostgreSQL/PostGIS, OS Windows).
 
-Objectifs de l'établissement
+### Objectifs de l'établissement
 
 L'objectif est de redévelopper cette application sur un environnement de développement open source
 
@@ -26,21 +26,21 @@ et potentiellement faire évoluer ses fonctionnalités.
 
 Présentation des principales fonctionnalités de l'application
 
-− Consultation, saisie, modification, suppression géographique et attributaire uniquement de
+- Consultation, saisie, modification, suppression géographique et attributaire uniquement de
 
 points (poteaux, dangerosité/neutralisation) et de segments (tout ou partie de câbles,
 
 dangerosité/neutralisation).
 
-− Reporting/export des données géographiques et attributaires (couches, tables...).
+- Reporting/export des données géographiques et attributaires (couches, tables...).
 
-Nouveau contexte de développement (open source)
+### Nouveau contexte de développement (open source)
 
-− Système d'exploitation : Linux (Debian ou Ubuntu).
+- Système d'exploitation : Linux (Debian ou Ubuntu).
 
-− Système de base de données : PostgreSQL/PostGIS (identique à l'actuel).
+- Système de base de données : PostgreSQL/PostGIS (identique à l'actuel).
 
-− Serveur cartographique : WMS fonds cartographiques IGN depuis l'API Géoportail®,
+- Serveur cartographique : WMS fonds cartographiques IGN depuis l'API Géoportail®,
 
 Mapserver/QGIS Server (à définir) et tuilage (MbTiles).
 
