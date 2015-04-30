@@ -81,6 +81,9 @@ cat mabase.gz | gunzip | psql nouvelle_base
 
 #### 5- Restaurer une base avec des tables PostGIS
 
-[Voir cette doc](https://github.com/xaadim/stage_carto_2015/blob/master/Installation%20de%20PostGIS.md) 
+La resaturation d'une base de données avec des tables de type geometry necissite une installation de PostGIS sur le serveur. Pour cela, [Voir cette doc](https://github.com/xaadim/stage_carto_2015/blob/master/Installation%20de%20PostGIS.md) pour comprendre comment installer PostGIS sur PostgreSQL. 
+
+Une fois votre PostGIS et ses composantes installés, vous avez juste qu'à restaurer votre base avec le programme psql en ligne de commande. 
+
 
 Pour plus de détails sur la sauvegarde et la restauration  [voir la doc du site officiel de PostgreSQL](http://docs.postgresqlfr.org/8.1/backup.html)
