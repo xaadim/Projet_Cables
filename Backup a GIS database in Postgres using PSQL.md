@@ -1,6 +1,6 @@
 PostgreSQL sauvegarde et de restauration
 ===
-Il ya un certain nombre d'options pour la sauvegarde d'une base de données PostgreSQL. Choisir l'option la plus appropriée dépend de la façon dont vous utilisez la base de données. Pour les bases de données relativement statiques avec quelques mises à jour, les outils de pg_dump et pg_restore vous permettent de prendre des instantanés périodiques des données chaque fois que nécessaire. Si vos données changent fréquemment, en utilisant un service de sauvegarde en ligne vous permettra de mises à jour en continu archive dans un emplacement sécurisé.
+Il ya un certain nombre d'options pour la sauvegarde d'une base de données PostgreSQL. Choisir l'option la plus appropriée dépend de la façon dont vous utilisez la base de données. 
 
 La sauvegarde en ligne est la base pour la réplication et des systèmes stand-by pour la haute disponibilité, en particulier la version de PostgreSQL 9.0 ou supérieure.
 
