@@ -45,20 +45,38 @@ pg_dump -h [SERVEUR]  -d [BDD] -U [USERBDD] --column-inserts -t [SCHEMA].[TABLE]
 ####  3- Restaurer la sauvegarde
 
 On utiluse le programme psql pour restaurer les fichiers texte créés par pg_dump qui sont prévus pour être lus par le programme. La syntaxe générale est :
-```sql
+```
 psql base_de_donnees < fichier_d_entree
 ```
 Pour notre exemple:
-```sql
+```
 psql mabase < /home/votre_projet/mabase.sql
 ```
 On peut aussi faire:
 
-```sql
+```
 psql -h [SERVEUR] -d [BDD] -U [USERBDD] -f /[CHEMIN_FICHIER_SQL]/[NOM].sql
 ```
 ### 4- Les grosses bases de données
 
 Il est conseiller de faire une compression pour la sauvegarde des grosses bases de données. 
 
+Vous pouvez utiliser votre programme de compression habituel. Par exemple gzip.
+```
+pg_dump mabase | gzip > /home/votre_projet/mabase.gz
+```
+Pour restaurer :
+On créer une base de données, si ce n'est pas déjà fait, pour préparer la restauration. 
+``` 
+createdb nouvelle_base
+```
+Puis on restaure avec: 
+```
+gunzip -c /home/votre_projet/mabase.gz | psql nouvelle_base
+```
+ou
+```
+cat mabase.gz | gunzip | psql nouvelle_base
+```
 
+Pour plus de détails sur la sauvegarde et la restauration  [voir le site officiel de PostgreSQL](http://docs.postgresqlfr.org/8.1/backup.html)
