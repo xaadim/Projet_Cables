@@ -31,7 +31,12 @@ Exemple:
 pg_dump mabase > /home/votre_projet/mabase.sql
 ```
 
+Ici, le serveur par défaut est localhost. Pour préciser quel serveur de bases de données pg_dump doit contacter, il faut lui préciser en utilisant les options de ligne de commande -h serveur et -p port. 
 
+Exemple: 
+```sql
+pg_dump -h 000.00.000.000 - p 0000  -d mabase > /home/votre_projet/mabase.sql
+```
 
 
 
