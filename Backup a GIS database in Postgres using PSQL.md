@@ -5,7 +5,7 @@ Il ya un certain nombre d'options pour la sauvegarde d'une base de données Post
 
 Sauvegarder une base de données PostgreSQL
 ----
-Il y a trois approches fondamentalement différentes pour sauvegarder les données de PostgreSQL™ :
+Il y a trois approches fondamentalement différentes pour sauvegarder les données de PostgreSQL :
 
 - La sauvegarde SQL ;
 - La sauvegarde de niveau système de fichiers ;
@@ -42,8 +42,16 @@ ou encore plus récuper un schéma d'une base de données
 pg_dump -h [SERVEUR]  -d [BDD] -U [USERBDD] --column-inserts -t [SCHEMA].[TABLE] > /[CHEMIN_FICHIER_SQL]/[NOM].sql
 ```
 
+####  3- Restaurer la sauvegarde
 
-
+On utiluse le programme psql pour restaurer les fichiers texte créés par pg_dump qui sont prévus pour être lus par le programme. La syntaxe générale est :
+```sql
+psql base_de_donnees < fichier_d_entree
+```
+Pour notre exemple:
+```sql
+psql mabase < /home/votre_projet/mabase.sql
+```
 
 sudo shp2pgsql -s [PROJECTION] /[CHEMIN_FICHIER_SQL]/[NOM_SHAPE] [SCHEMA].[TABLE] > /[CHEMIN_FICHIER_SQL]/[NOM].sql
 sudo psql -h [SERVEUR] -d [BDD] -U [USERBDD] -f /[CHEMIN_FICHIER_SQL]/[NOM].sql
