@@ -79,4 +79,4 @@ ou
 cat mabase.gz | gunzip | psql nouvelle_base
 ```
 
-Pour plus de détails sur la sauvegarde et la restauration  [voir le site officiel de PostgreSQL](http://docs.postgresqlfr.org/8.1/backup.html)
+Pour plus de détails sur la sauvegarde et la restauration  [voir la doc du site officiel de PostgreSQL](http://docs.postgresqlfr.org/8.1/backup.html)
