@@ -79,4 +79,8 @@ ou
 cat mabase.gz | gunzip | psql nouvelle_base
 ```
 
+#### 5- Restaurer une base avec des tables PostGIS
+
+[](https://github.com/xaadim/stage_carto_2015/blob/master/Installation%20de%20PostGIS.md) 
+
 Pour plus de détails sur la sauvegarde et la restauration  [voir la doc du site officiel de PostgreSQL](http://docs.postgresqlfr.org/8.1/backup.html)
