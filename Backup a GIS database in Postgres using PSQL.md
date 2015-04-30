@@ -36,6 +36,9 @@ Ici, le serveur par défaut est localhost. Pour préciser quel serveur de bases 
 Exemple: 
 ```sql
 pg_dump -h 000.00.000.000 - p 0000  -d mabase > /home/votre_projet/mabase.sql
+```
+ou encore plus récuper un schéma d'une base de données 
+```sql
 pg_dump -h [SERVEUR]  -d [BDD] -U [USERBDD] --column-inserts -t [SCHEMA].[TABLE] > /[CHEMIN_FICHIER_SQL]/[NOM].sql
 ```
 
