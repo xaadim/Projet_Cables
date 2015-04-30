@@ -52,8 +52,11 @@ Pour notre exemple:
 ```sql
 psql mabase < /home/votre_projet/mabase.sql
 ```
+On peut aussi faire:
 
-sudo shp2pgsql -s [PROJECTION] /[CHEMIN_FICHIER_SQL]/[NOM_SHAPE] [SCHEMA].[TABLE] > /[CHEMIN_FICHIER_SQL]/[NOM].sql
-sudo psql -h [SERVEUR] -d [BDD] -U [USERBDD] -f /[CHEMIN_FICHIER_SQL]/[NOM].sql
+```sql
+psql -h [SERVEUR] -d [BDD] -U [USERBDD] -f /[CHEMIN_FICHIER_SQL]/[NOM].sql
+```
+
 
 
