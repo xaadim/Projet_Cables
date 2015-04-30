@@ -1,4 +1,3 @@
-(en rédaction)
 PostgreSQL sauvegarde et de restauration
 ===
 Il ya un certain nombre d'options pour la sauvegarde d'une base de données PostgreSQL. Choisir l'option la plus appropriée dépend de la façon dont vous utilisez la base de données. 
