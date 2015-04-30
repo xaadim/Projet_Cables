@@ -1,14 +1,19 @@
-PostgreSQL sauvegarde et de restauration
+PostgreSQL:sauvegarde et de restauration
 ===
 Il ya un certain nombre d'options pour la sauvegarde d'une base de données PostgreSQL. Choisir l'option la plus appropriée dépend de la façon dont vous utilisez la base de données. 
 
 
 Sauvegarder une base de données
 ----
-Il n'y deux façons pour sauvegarder une base de données: 
+Il y a trois approches fondamentalement différentes pour sauvegarder les données de PostgreSQL™ :
 
-- d'une manière graphique 
-- ou line de commande
+La sauvegarde SQL ;
+
+La sauvegarde de niveau système de fichiers ;
+
+La sauvegarde à chaud (ou en ligne).
+
+Chacune a ses avantages et inconvénients.
 
 1-La méthode graphique 
 
