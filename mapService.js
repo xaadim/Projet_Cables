@@ -179,40 +179,39 @@ app.directive('leafletMap', function(){
                     dfd.resolve();
                 }
 
-                // var getVisibleItems = function(){
-                //     var bounds = map.getBounds();
-                //     var visibleItems = [];
-                //     geoms.forEach(function(item){
-                //         try{
-                //             var _coords = item.getLatLng();
-                //         }
-                //         catch(e){
-                //             var _coords = item.getLatLngs();
-                //         }
-                //         try{
-                //             if(bounds.intersects(_coords)){
-                //                 visibleItems.push(item.feature.properties.id);
-                //             }
-                //         }
-                //         catch(e){
-                //             if(bounds.contains(_coords)){
-                //                 visibleItems.push(item.feature.properties.id);
-                //             }
-                //         }
-                //     });
+                               var getVisibleItems = function(){
+                    var bounds = map.getBounds();
+                    var visibleItems = [];
+                    geoms.forEach(function(item){
+                        try{
+                            var _coords = item.getLatLng();
+                        }
+                        catch(e){
+                            var _coords = item.getLatLngs();
+                        }
+                        try{
+                            if(bounds.intersects(_coords)){
+                                visibleItems.push(item.feature.properties.id);
+                            }
+                        }
+                        catch(e){
+                            if(bounds.contains(_coords)){
+                                visibleItems.push(item.feature.properties.id);
+                            }
+                        }
+                    });
                 
-                //     return visibleItems;
-                // };
-                // mapService.getVisibleItems = getVisibleItems;
+                    return visibleItems;
+                };
+                mapService.getVisibleItems = getVisibleItems;
 
-// déclaration des controles sur la cartes depuis d'autres fonctionnalités (formDirective = création, édition...)
+
                 var getLayerControl = function(){
                     return layerControl;
                 };
                 mapService.getLayerControl = getLayerControl;
 
-// déclaration des objets JSON qui sont vides depuis d'autres fonctionnalités (formDirective = création, édition...)
-// seront remplis par la suite avec addgeoms
+
                 var getLayer = function(){
                     // return toutesDonnees;
                     return zoneSensibles;
@@ -221,7 +220,7 @@ app.directive('leafletMap', function(){
                 };
                 mapService.getLayer = getLayer;
 
-// déclaration de la carte depuis d'autres fonctionnalités (formDirective = création, édition...)
+
                 var getMap = function(){
                     return map;
                 }
