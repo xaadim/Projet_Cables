@@ -179,7 +179,7 @@ app.directive('leafletMap', function(){
                     dfd.resolve();
                 }
 
-                               var getVisibleItems = function(){
+                var getVisibleItems = function(){
                     var bounds = map.getBounds();
                     var visibleItems = [];
                     geoms.forEach(function(item){
