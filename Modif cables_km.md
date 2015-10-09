@@ -1,6 +1,5 @@
 # Modifications sur cables_km
 
-### 1- Changement de la gestion des routes angularjs
+### 1- Ajout du breadcrumb 
 
-Installation du module ui-route pour gérer les routes à la place de ng-route, pour créer des Breadcrumb automatiques.
 
