@@ -62,4 +62,5 @@ b- Dans AngularJs
 - mise à jour de app.js (ajout du module eqPoteauxErdfCtrl)
 - mise à jour de cables.html (appel du fichier js du contrôleur)
 - création de detail.htm et edit.htm dans js/templates sous eqPoteauxErdf
+- ajout dans le tableau accueil 
 
