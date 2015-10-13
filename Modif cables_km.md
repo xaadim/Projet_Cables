@@ -54,6 +54,9 @@ $scope.title = data.nom_espece;
  
 ## 3- Ajout du tableau Equipement poteaux dans list
 
+a- Dans Symfony:
+- ajout des routes dans routing.yml et routing_conf.yml
+b- Dans AngularJs
 - création du contrôleur eqPoteauxErdfCtrl
 - mise à jour de app.js (ajout du module eqPoteauxErdfCtrl)
 - mise à jour de cables.html (appel du fichier js du contrôleur)
