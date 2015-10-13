@@ -9,7 +9,9 @@ Mise à jour des requêtes SQL dans le fichie
 
 voir aussi fichier template htm: js/templates/display/breadcrumbs.htm
 
-ajout du breadcrumb dans les pages avec la div ```javascript <div breadcrumbs appname="{{cables}}"></div>
+ajout du breadcrumb dans les pages avec la div 
+```javascript 
+<div breadcrumbs appname="{{cables}}"></div> 
 
 
 
