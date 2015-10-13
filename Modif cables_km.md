@@ -64,3 +64,6 @@ b- Dans AngularJs
 - création de detail.htm et edit.htm dans js/templates sous eqPoteauxErdf
 - ajout dans le tableau accueil 
 
+
+## 4- Configuration saisie
+
