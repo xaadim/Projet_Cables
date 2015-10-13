@@ -21,7 +21,10 @@ Pour :
 
 ##### Zones sensibles
 ##### Cas de Mortalité 
-##### Inventaires troncons ERDF
+##### Inventaires troncons ERDF : Tronçon + ID
+```javascript
+$scope.title = 'tronçon' + data.id;
+```
 ##### Inventaires poteaux ERDF
 ##### Equipements poteaux ERDF
 ##### Equipements tronçons ERDF
