@@ -52,8 +52,7 @@ $scope.title = 'tronçon' + data.id;
 $scope.title = 'tronçon' + data.id;
 ```
  
-
-
+## 3- Ajout du tableau Equipement poteaux dans list
 
 
 
