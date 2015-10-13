@@ -29,15 +29,15 @@ $scope.title = 'tronçon' + data.id;
 ```
 ##### Inventaires troncons ERDF : Tronçon + ID
 ```javascript
-$scope.title = 'tronçon' + data.id;
+$scope.title = 'tronçon ' + data.id;
 ```
-##### Inventaires poteaux ERDF
+##### Inventaires poteaux ERDF : Poteau + ID
 ```javascript
-$scope.title = 'tronçon' + data.id;
+$scope.title = 'poteau' + data.id;
 ```
-##### Equipements poteaux ERDF
+##### Equipements poteaux ERDF : Type d'équipement
 ```javascript
-$scope.title = 'tronçon' + data.id;
+$scope.title = data.type_equipement_troncon;
 ```
 ##### Equipements tronçons ERDF
 ```javascript
