@@ -56,6 +56,7 @@ $scope.title = data.nom_espece;
 
 a- Dans Symfony:
 - ajout des routes dans routing.yml et routing_conf.yml
+
 b- Dans AngularJs
 - création du contrôleur eqPoteauxErdfCtrl
 - mise à jour de app.js (ajout du module eqPoteauxErdfCtrl)
