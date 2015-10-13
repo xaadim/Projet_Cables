@@ -20,16 +20,37 @@ ajout du breadcrumb dans les pages avec la div
 Pour : 
 
 ##### Zones sensibles
+```javascript
+$scope.title = 'tronçon' + data.id;
+```
 ##### Cas de Mortalité 
+```javascript
+$scope.title = 'tronçon' + data.id;
+```
 ##### Inventaires troncons ERDF : Tronçon + ID
 ```javascript
 $scope.title = 'tronçon' + data.id;
 ```
 ##### Inventaires poteaux ERDF
+```javascript
+$scope.title = 'tronçon' + data.id;
+```
 ##### Equipements poteaux ERDF
+```javascript
+$scope.title = 'tronçon' + data.id;
+```
 ##### Equipements tronçons ERDF
+```javascript
+$scope.title = 'tronçon' + data.id;
+```
 ##### Sites de nidifications
+```javascript
+$scope.title = 'tronçon' + data.id;
+```
 ##### Observations
+```javascript
+$scope.title = 'tronçon' + data.id;
+```
  
 
 
