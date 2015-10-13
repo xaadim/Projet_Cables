@@ -3,7 +3,7 @@
 ## 1- Ajout du breadcrumb 
 
 ### a- Dans Symfony: voir  BreadConfigController.php
-Mise à jour des requêtes SQL dans le fichie
+Mise à jour des requêtes SQL dans le fichier
 
 ### b- Dans AngularJS: voir la directive breadcrumbs dans displayDirectives.js 
 
