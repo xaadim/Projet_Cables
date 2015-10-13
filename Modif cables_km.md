@@ -19,13 +19,13 @@ ajout du breadcrumb dans les pages avec la div
 
 Pour : 
 
-##### Zones sensibles
+##### Zones sensibles : nom zone sensible
 ```javascript
-$scope.title = 'tronçon' + data.id;
+$scope.title =  data.nom_zone_sensible;
 ```
-##### Cas de Mortalité 
+##### Cas de Mortalité : nom espèce
 ```javascript
-$scope.title = 'tronçon' + data.id;
+$scope.title =  data.nom_espece;
 ```
 ##### Inventaires troncons ERDF : Tronçon + ID
 ```javascript
@@ -35,21 +35,21 @@ $scope.title = 'tronçon ' + data.id;
 ```javascript
 $scope.title = 'poteau' + data.id;
 ```
-##### Equipements poteaux ERDF : Type d'équipement
+##### Equipements poteaux ERDF : Type d'équipement poteau
+```javascript
+$scope.title = data.type_equipement_poteau;
+```
+##### Equipements tronçons ERDF : Type d'équipement tronçon
 ```javascript
 $scope.title = data.type_equipement_troncon;
 ```
-##### Equipements tronçons ERDF
+##### Sites de nidifications : nom espèce
 ```javascript
-$scope.title = 'tronçon' + data.id;
+$scope.title =  data.nom_espece;
 ```
-##### Sites de nidifications
+##### Observations : nom espèce
 ```javascript
-$scope.title = 'tronçon' + data.id;
-```
-##### Observations
-```javascript
-$scope.title = 'tronçon' + data.id;
+$scope.title = data.nom_espece;
 ```
  
 ## 3- Ajout du tableau Equipement poteaux dans list
