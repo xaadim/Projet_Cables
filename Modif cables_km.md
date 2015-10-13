@@ -54,5 +54,8 @@ $scope.title = data.nom_espece;
  
 ## 3- Ajout du tableau Equipement poteaux dans list
 
-
+création du contrôleur eqPoteauxErdfCtrl
+mise à jour de app.js (ajout du module eqPoteauxErdfCtrl)
+mise à jour de cables.html (appel du fichier js du contrôleur)
+création de detail.htm et edit.htm dans js/templates sous eqPoteauxErdf
 
