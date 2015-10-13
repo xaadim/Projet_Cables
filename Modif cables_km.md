@@ -13,6 +13,19 @@ voir aussi fichier template htm: js/templates/display/breadcrumbs.htm
 ajout du breadcrumb dans les pages avec la div 
 ```javascript 
 <div breadcrumbs appname="{{cables}}"></div> 
+```
+
+## 2- Label à afficher sur Géom carte et dans détail objet
+
+==>Zones sensibles
+==> Cas de Mortalité 
+==>Inventaires troncons ERDF
+==>Inventaires poteaux ERDF
+==>Equipements poteaux ERDF
+==>Equipements tronçons ERDF
+==>Sites de nidifications
+==>Observations
+ 
 
 
 
